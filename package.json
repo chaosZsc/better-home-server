@@ -1,0 +1,27 @@
+{
+  "name": "better-home-server",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "ts + node + sequelize + mariadb + koa 实现家庭网站后端",
+  "author": "chaosZsc <chaos_zsc@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "serve": "yarn build && node dist/index.js"
+  },
+  "dependencies": {
+    "@types/koa": "^2.11.3",
+    "@types/lodash": "^4.14.149",
+    "@types/sequelize": "^4.28.8",
+    "koa": "^2.11.0",
+    "lodash": "^4.17.15",
+    "mariadb": "^2.3.1",
+    "moment": "^2.24.0",
+    "nodemon": "^2.0.3",
+    "sequelize": "^5.21.5",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  }
+}
